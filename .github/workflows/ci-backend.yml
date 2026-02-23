@@ -8,7 +8,7 @@ on:
   #    - 'src/ci-/**'
 env:
   REG_NAME: "acrinfobi22210.azurecr.io" # Nom du registy
-  IMAGE_NAME: "backend-EO" # Nom de votre image
+  IMAGE_NAME: "backend-eo" # Nom de votre image
 
 jobs:
   build-and-deploy:
