@@ -61,6 +61,7 @@ jobs:
         with:
           urls: |
             https://todo.elandosman.emf-informatique.ch/
+          budgetPath: ./.lighthouserc.json
           uploadArtifacts: true
           temporaryPublicStorage: true   
 
