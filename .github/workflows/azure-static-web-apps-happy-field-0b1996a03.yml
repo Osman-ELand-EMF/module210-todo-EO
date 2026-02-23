@@ -56,12 +56,12 @@ jobs:
           github_id_token: ${{ steps.idtoken.outputs.result }}
           ###### End of Repository/Build Configurations ######
 
-      - name: Run Lighthouse CI
+      - name: Exécuter Lighthouse sur le site
         uses: treosh/lighthouse-ci-action@v12
         with:
           urls: |
             https://todo.elandosman.emf-informatique.ch/
-          budgetPath: ./.lighthouserc.json
+          configPath: ./.lighthouserc.json
           uploadArtifacts: true
           temporaryPublicStorage: true   
 
